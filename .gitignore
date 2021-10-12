@@ -1,0 +1,9 @@
+# ignore all logs
+*.log
+
+# ignore checkpoints jupyter
+.ipynb_checkpoints
+
+# ignore data folder
+/data
+
