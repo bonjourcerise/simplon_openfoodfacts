@@ -13,10 +13,10 @@ import matplotlib.pyplot as plt
 from PIL import Image
 
 
-df_nutriscore = pd.read_csv(r"C:\Users\veron\Desktop\Deploiement\dashboard\data\data.csv")
+df_nutriscore = pd.read_csv("data\data.csv")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-image = Image.open(r"C:\Users\veron\Desktop\Deploiement\dashboard\img\orange.jpg")
+image = Image.open("img\orange.jpg")
 st.image(image)
 
 st.title("Analyse des jus d'orange en France")
